@@ -1,0 +1,53 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  margin: 20px;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.navbar a {
+  color: blue;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+#picture img {
+  max-width: 100%;
+  height: auto;
+  border: 5px solid #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+#bio {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+#schedule table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#schedule th,
+#schedule td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#links a {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
